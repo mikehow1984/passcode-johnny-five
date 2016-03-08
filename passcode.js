@@ -59,7 +59,7 @@ Array.prototype.equals = function (array) {
   };
 
 	//tie the codeInput to a button press
-	button1.on("press", codeInput(2));
-	button2.on("press", codeInput(1));
+	button1.on("release", codeInput(2));
+	button2.on("release", codeInput(1));
 	
 });
